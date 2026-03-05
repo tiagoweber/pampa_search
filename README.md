@@ -1,4 +1,4 @@
-# TREENAV: A minimalist tree navigation library made to be usable to solve path-finding optimization problems
+# TREENAV: A minimalist tree navigation library to solve path-finding optimization problems
 
 TREENAV provides basic tree navigation for path-finding optimization problems. It has configurable features that allows the user to adapt it to the problem at hand. Its first use was to solve maze and routing problems (see examples).
 
