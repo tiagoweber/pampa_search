@@ -1,13 +1,13 @@
-# TREENAV: A minimalist tree navigation library to solve path-finding optimization problems
+# PAMPA-SEARCH: A minimalist graph navigation library to solve path-finding optimization problems
 
-TREENAV provides basic tree navigation for path-finding optimization problems. It has configurable features that allows the user to adapt it to the problem at hand. Its first use was to solve maze and routing problems (see examples).
+PAMPA-SEARCH provides basic state-space-search in graphs (graph navigation) for path-finding optimization problems. It has configurable features that allows the user to adapt it to the problem at hand. Its first use was to solve maze problems (see examples).
 
-The library works both for  manually created trees or for problems in which the tree is created dinamically through iterations/movements in the problem. For that purpose, the user can create a class to describe its problems.
+The library works both for manually created graphs or for problems in which the graph is created dinamically through iterations/movements in the problem. For that purpose, the user can create a class to describe its problems.
 
 
 ## Functionalities
 
-- works for manually created trees and for dinamically created trees;
+- works for manually created graphs and for dinamically created graphs (when the state-space is implicit);
 - to solve specific path-finding problems, it interacts with specific problems through a user-defined class which require a minimal number of methods;
 - implements Depth-first, Breadth-first and A* (A star) algorithms
 
@@ -31,6 +31,6 @@ A* strategy on a 20x20 maze
 
 - Copyright 2026 Tiago Oliveira Weber
 - License: MIT License
-- Repository: https://github.com/tiagoweber/treenav
+- Repository: https://github.com/tiagoweber/pampa-search
 - Author professional website: www.tiagoweber.com.br
 - Contact: tiago.oliveira.weber@gmail.com
