@@ -1,6 +1,6 @@
-# PAMPA_SEARCH: A minimalist graph navigation library to solve path-finding optimization problems
+# PAMPA-SEARCH: A minimalist graph navigation library to solve path-finding optimization problems
 
-PAMPA_SEARCH provides basic state-space-search in graphs (graph navigation) for path-finding optimization problems. It has configurable features that allows the user to adapt it to the problem at hand. Its first use was to solve maze problems (see examples).
+PAMPA-SEARCH provides basic state-space-search in graphs (graph navigation) for path-finding optimization problems. It has configurable features that allows the user to adapt it to the problem at hand. Its first use was to solve maze problems (see examples).
 
 The library works both for manually created graphs or for problems in which the graph is created dinamically through iterations/movements in the problem. For that purpose, the user can create a class to describe its problems.
 
@@ -31,6 +31,6 @@ A* strategy on a 20x20 maze
 
 - Copyright 2026 Tiago Oliveira Weber
 - License: MIT License
-- Repository: https://github.com/tiagoweber/pampa_search
+- Repository: https://github.com/tiagoweber/pampa-search
 - Author professional website: www.tiagoweber.com.br
 - Contact: tiago.oliveira.weber@gmail.com
